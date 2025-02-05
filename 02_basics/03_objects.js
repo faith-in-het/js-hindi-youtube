@@ -14,7 +14,7 @@ const JsUser = {
     location: "Jaipur",
     email: "hitesh@google.com",
     isLoggedIn: false,
-    lastLoginDays: ["Monday", "Saturday"]
+    lastLoginDays: ["Monday", "Saturday"] // THIS IS HOW YOU HAVE TO SHOW SYMBOLS 
 }
 
 // console.log(JsUser.email)
