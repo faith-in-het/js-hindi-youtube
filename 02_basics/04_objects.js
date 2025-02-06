@@ -80,3 +80,8 @@ console.log(instructor);
     {}
 ]
 
+//de-structure
+const navbar = ({companyname})=>{
+    
+}
+navbar(company:het)
