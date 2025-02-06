@@ -12,7 +12,7 @@ const otherNumber = 123.8966
 // console.log(otherNumber.toPrecision(4));
 
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN')); //it puts commas in number
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
@@ -31,4 +31,4 @@ console.log(Math.floor(Math.random()*10) + 1);
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+console.log(Math.floor(Math.random() * (max - min + 1)) + min) //max-min+1 was for ranging numbers
