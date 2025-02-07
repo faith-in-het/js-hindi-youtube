@@ -13,7 +13,7 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
-
+//hoisting 
 function one(){
     const username = "hitesh"
 
