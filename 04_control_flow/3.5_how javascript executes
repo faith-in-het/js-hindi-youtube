@@ -1,0 +1,13 @@
+javascript executes in 3 stepts 
+1. Global execution
+2. Memory Phase
+3. Execution Phase
+
+1.->global execution ->this
+
+2.->memory phase ->
+   It will give values=undefined to the variables
+
+  3.->execution will occur
+      every function will repeat memory and execution phase
+      
