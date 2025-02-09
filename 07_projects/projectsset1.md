@@ -44,7 +44,10 @@ const form = document.querySelector('form');
 // const height = parseInt(document.querySelector('#height').value)
 
 form.addEventListener('submit', function (e) {
-  e.preventDefault();
+  e.preventDefault(); //e.preventDefault() stops the browser's default behavior for an event.
+   //Example 1 (Form Submission): Prevents the page from reloading when a form is submitted.
+  //Example 2 (Link Click): Stops navigation to the href of a link.
+  //Example 3 (Right-Click): Disables the browser's default context menu.
 
   const height = parseInt(document.querySelector('#height').value);
   const weight = parseInt(document.querySelector('#weight').value);
