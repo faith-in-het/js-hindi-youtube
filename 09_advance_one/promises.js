@@ -43,7 +43,7 @@ const promiseFour = new Promise(function(resolve, reject){
 })
 
  promiseFour
- .then((user) => {
+ .then((user) => { //user me voh value hogi jo resolve dega uper
     console.log(user);
     return user.username
 }).then((username) => {
@@ -67,7 +67,7 @@ const promiseFive = new Promise(function(resolve, reject){
 
 async function consumePromiseFive(){
     try {
-        const response = await promiseFive
+        const response = await promiseFive //await me promiseFive ka resolve output bhi jaega fir response me chala jaega so then if we print response toh resolve ka output dega voh 
         console.log(response);
     } catch (error) {
         console.log(error);
