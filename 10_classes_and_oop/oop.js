@@ -1,3 +1,7 @@
+//if you are in window then this={window}
+//if you are on node environment = this={}
+
+
 const user = {
     username: "hitesh",
     loginCount: 8,
